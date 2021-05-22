@@ -3,7 +3,7 @@ package com.lyw.leetcode.dp.dp001;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Solution {
+public class Solution1 {
     public int lengthOfLIS(int[] nums) {
         List<TempResult> tempResultList = new ArrayList<>();
 
