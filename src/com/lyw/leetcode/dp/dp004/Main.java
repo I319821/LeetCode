@@ -7,8 +7,12 @@ public class Main {
     }
 
     public static void test(int[] nums){
+//        Solution1 solution1 = new Solution1();
+//        int maxSum = solution1.maxSubArray(nums);
+
         Solution solution = new Solution();
         int maxSum = solution.maxSubArray(nums);
+
         System.out.print(maxSum);
     }
 }
